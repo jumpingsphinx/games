@@ -1,0 +1,12 @@
+
+# Graphics and Game Engine
+pygame>=2.5.0
+
+# Python Version Requirement
+# Requires Python 3.10 or higher
+
+# Optional Development Dependencies (uncomment if needed)
+# pytest>=7.0.0          # For running unit tests
+# black>=23.0.0          # Code formatter
+# pylint>=2.17.0         # Code linter
+# mypy>=1.0.0            # Static type checker

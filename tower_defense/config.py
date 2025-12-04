@@ -50,4 +50,25 @@ DEFAULT_START = (2, 15)
 DEFAULT_END = (37, 15)
 
 # UI settings
-UI_HEIGHT = 0  # Reserved space at top for UI (Phase 6)
+UI_HEIGHT = 100  # Reserved space at top for UI
+UI_PANEL_HEIGHT = 80  # Height of UI panel at top
+
+# Economy settings
+STARTING_MONEY = 500
+STARTING_LIVES = 20
+
+# Tower costs (defined in tower.py but referenced here for easy access)
+TOWER_COSTS = {
+    'basic': 100,
+    'slow': 150,
+    'sniper': 250
+}
+
+# Enemy rewards
+ENEMY_KILL_REWARD = 25  # Money earned per enemy killed
+
+# Wave settings (for Phase 4)
+BASE_ENEMY_HEALTH = 50
+BASE_ENEMY_SPEED = 1.0
+WAVE_HEALTH_MULTIPLIER = 1.2  # Health increases per wave
+WAVE_SPEED_MULTIPLIER = 1.05  # Speed increases per wave
